@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "routes": [
+      { "handle": "filesystem" },
+      { "src": "/api/user", "dest": "/api/user.js" }
+    ],
+    "builds": [
+      { "src": "/api/user.js", "use": "@vercel/node" }
+    ]
+  }
+  
