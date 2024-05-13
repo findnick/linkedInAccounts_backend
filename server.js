@@ -15,7 +15,6 @@ app.use(express.json({ extended: false }))
 app.use('/api/user', require('./Routes/user'));
 
 
-
 function database() {
     try {
         const node = server
